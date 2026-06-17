@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pod-Config
+data:
+  Domain: "DevSecOps with AWS"
+  DevOpsEngineer: "prasad"
