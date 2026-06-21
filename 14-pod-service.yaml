@@ -4,8 +4,10 @@ metadata:
   name: service-demo
   labels:
     project: roboshop
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
+    component: frontend
+    environment: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx
       

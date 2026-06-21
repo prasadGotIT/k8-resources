@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     project: roboshop
-    component:  frontend
+    component: frontend
     environment: Dev
   ports:
     - protocol: TCP
